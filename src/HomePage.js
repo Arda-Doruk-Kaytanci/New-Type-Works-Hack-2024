@@ -1,19 +1,19 @@
 import React from 'react'
 import TipLink from "./TipLink";
-import tip1img from "./Images/tip_1.png"
-import tip4img from "./Images/tip_4.png"
-import tip10img from "./Images/tip_10.png"
-import tip3img from "./Images/tip_3.png"
+import tip1img from "./Images/image1.png"
+import tip4img from "./Images/image4.png"
+import tip10img from "./Images/image10.png"
+import tip3img from "./Images/image3.png"
 import homepageImg1 from "./Images/homepageImg1.png"
 import homepageImg2 from "./Images/homepageImg2.png"
 import homepageImg3 from "./Images/homepageImg3.png"
 function HomePage() {
 
     const featuredTips = [
-        <TipLink key={1} name="Composting and Organic Fertilizers" src={tip1img} home={true}></TipLink>,
-        <TipLink key={2} name="Agroforestry on Farms" src={tip4img} home={true}></TipLink>,
-        <TipLink key={3} name="Smart Farming Technology" src={tip10img} home={true}></TipLink>,
-        <TipLink key={4} name="Water Conservation on Farms" src={tip3img} home={true}></TipLink>,
+        <TipLink key={1} name="Don’t Respond to Pop-Up Ads" src={tip1img} home={true}></TipLink>,
+        <TipLink key={2} name="Be Cautious of Public Wi-Fi" src={tip4img} home={true}></TipLink>,
+        <TipLink key={3} name="Be Skeptical of Unexpected Emails and Messages" src={tip10img} home={true}></TipLink>,
+        <TipLink key={4} name="Know the Warning Signs of Scams" src={tip3img} home={true}></TipLink>,
     ];
 
     return (

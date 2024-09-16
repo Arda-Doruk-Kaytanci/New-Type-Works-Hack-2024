@@ -4,7 +4,7 @@ import banner from './Images/banner.jpg';
 import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 import { useRef } from 'react';
-import goback from "./Images/circular_go_back_button.png"
+import goback from "./Images/goback.png"
 
 function App() {
   const navRef = useRef(null); 

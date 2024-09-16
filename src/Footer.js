@@ -42,8 +42,7 @@ function Footer({ scrollRef }) {
                     color: 'grey',
                     fontWeight: 'normal'
                 }}>Go Up</button></li>
-                <li><LinkButton name="What To Plant" link="what-to-plant" scrollRef={scrollRef}></LinkButton></li>
-                <li><LinkButton name="Crops" link="crops" scrollRef={scrollRef} ></LinkButton></li>
+                <li><LinkButton name="Tests" link="tests" scrollRef={scrollRef} ></LinkButton></li>
             </ul>
             <footer className='Footer'>Author: Arda Doruk Kaytancı</footer>
         </div>
