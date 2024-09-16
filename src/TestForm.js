@@ -11,12 +11,12 @@ function TestForm(props) {
 
                 <label id="firstq" htmlFor="q1">1. What is the average temperature in your region (°C)? (+7 if not viable)</label><br />
                 <div className="answers">
-                    <input type="number" id="q1" name="temperature" required />
+                    <input min={0} type="number" id="q1" name="temperature" required />
                 </div><br />
 
                 <label htmlFor="q2">2. How much rain does your farm receive? (+2 if not -5)</label><br />
                 <div className="answers">
-                    <input type="number" id="q2" name="rainfall" required />
+                    <input type="number" id="q2" name="rainfall" required min={0}/>
                 </div><br />
 
                 <label htmlFor="q3a">3. Is the topography of your land suitable for growing this crop (e.g., flat or hilly)? (+2 if not -5)</label><br />
@@ -33,7 +33,7 @@ function TestForm(props) {
 
                 <label htmlFor="q4">4. What is your available budget for cultivating this crop (in USD)? ((+5 if not -7))</label><br />
                 <div className="answers">
-                    <input type="number" id="q4" name="budget" min="0" required />
+                    <input type="number" id="q4" name="budget" min={0} required />
                 </div><br />
 
                 <label htmlFor="q5a">5. Do you have access to sufficient water sources (e.g., rivers, wells)? (+2 if not -3)</label><br />
@@ -63,17 +63,17 @@ function TestForm(props) {
                 <label htmlFor="q7">7. On a scale of 1 to 10, how strict are your local rules against drug-related crops? (+1 if not viable)</label><br />
                 <div className="answers">
                     {range}
-                    <input type="range" id="q7" name="weedControl" min="1" value={range} onChange={onChangeHandler} max="10" required />
+                    <input type="range" id="q7" name="weedControl" min={1} value={range} onChange={onChangeHandler} max={10} required />
                 </div><br />
 
                 <label htmlFor="q8">8. How many people are available to help with this crop's cultivation? (+2 if not -3)</label><br />
                 <div className="answers">
-                    <input type="number" id="q8" name="labor" min="0" required />
+                    <input type="number" id="q8" name="labor" min={0} required />
                 </div><br />
 
                 <label htmlFor="q9">8. How many seed are you going to plant? (Required for calculation purposes)</label><br />
                 <div className="answers">
-                    <input type="number" id="q9" name="crops" min="0" required />
+                    <input type="number" id="q9" name="crops" min={0} required />
                 </div><br />
 
 

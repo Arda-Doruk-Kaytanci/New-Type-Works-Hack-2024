@@ -20,15 +20,15 @@ function HomePage() {
         <div className='HomePage'>
             <article className="homepageArticle1">
                 <img src={homepageImg1} alt='summary of the informations' className="homepageImg" />
-                <p>The primary aim of eco-friendly farming is to create a harmonious balance between agriculture and the environment. By implementing sustainable practices like renewable energy, water conservation, and natural pest control, farms can coexist with nature. These methods help protect the environment, conserve valuable resources, and maintain the health of ecosystems, ensuring that high productivity is achieved without sacrificing ecological responsibility.</p>
+                <p>It’s important to be aware of common scams that can trick you online. Scammers may send you emails, messages, or even call you pretending to be from a trusted company or bank. They might ask for your personal information, like passwords or bank details, but you should never share this information with anyone who contacts you unexpectedly. Always be cautious of unfamiliar emails and links, especially if they ask for sensitive information. If something feels suspicious, don’t respond, and reach out to a trusted family member or friend for advice.</p>
             </article>
             <article className="homepageArticle">
                 <img src={homepageImg2} alt='summary of the informations' className="homepageImg2" />
-                <p>Eco-friendly farming encourages methods like crop rotation and companion planting to naturally enrich the soil and reduce the need for chemical inputs. These practices not only boost soil fertility but also foster biodiversity by attracting beneficial insects and wildlife. The result is healthier crops, reduced reliance on harmful chemicals, and a thriving ecosystem that supports both the environment and farming productivity.</p>
+                <p>Protecting yourself online is easier when you practice good habits. Start by creating strong passwords that include numbers, symbols, and a mix of letters, and avoid using the same password for different accounts. It’s also a good idea to enable extra protection, like two-factor authentication, which sends you a special code to confirm your identity when logging in. Finally, make sure to update your computer or phone regularly to protect against new threats. These small steps can go a long way in keeping your information safe.</p>
             </article>
             <article className="homepageArticle1">
                 <img src={homepageImg3} alt='summary of the informations' className="homepageImg" />
-                <p>Leveraging technology is another key aspect of sustainable agriculture. Precision farming tools, drones, and sensors help monitor crop health and optimize resource use, ensuring minimal waste. These smart technologies allow farmers to efficiently manage their farms while reducing their environmental impact. The combination of nature and technology creates resilient, sustainable systems that support both the environment and the economy.</p>
+                <p>It’s always okay to ask for help when you come across something unfamiliar online. Whether it’s a family member, a trusted friend, or a local community group, having someone to turn to can give you peace of mind. If you’re unsure about an email, phone call, or website, reach out for advice before taking any action. Building a network of people you trust can help you stay informed about the latest scams and ensure that you always have support when navigating the online world.</p>
             </article>
             <article className='brief'>
                 {featuredTips}

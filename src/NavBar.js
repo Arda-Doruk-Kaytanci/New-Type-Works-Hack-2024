@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
 import { Route, Routes, Link, useLocation } from 'react-router-dom';
 import HomePage from './HomePage';
-import CropsCatalogue from './CropsCatalogue'
+import TestCatalogue from './TestCatalogue'
 import TipCatalogue from './TipCatalogue';
 import Tip from './Tip';
-import Best4u from './Best4u';
+import Test from './Test';
 import Crop from './Crop';
 import tip1img from "./Images/tip_1.png"
 import tip2img from "./Images/tip_2.png"
@@ -156,8 +156,8 @@ const NavBar = forwardRef((props, ref) => {
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/tips' element={<TipCatalogue />} />
-                <Route path='/crops' element={<CropsCatalogue />} />
-                <Route path='/what-to-plant' element={<Best4u scrollRef={ref} />} />
+                <Route path='/crops' element={<TestCatalogue />} />
+                <Route path='/what-to-plant' element={<Test scrollRef={ref} />} />
                 <Route path='/tips/composting-and-organic-fertilizers' element={<Tip steps={tip_1List} desc={descriptions[0]} img={tip1img} name="Composting and Organic Fertilizers" />} />
                 <Route path='/tips/renewable-energy-on-farms' element={<Tip steps={tip_2List} desc={descriptions[1]} name="Renewable Energy on Farms" img={tip2img} />} />
                 <Route path='/tips/water-conservation-on-farms' element={<Tip steps={tip_3List} desc={descriptions[2]} name="Water Conservation on Farms" img={tip3img} />} />
