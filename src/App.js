@@ -13,15 +13,11 @@ function App() {
   const goBack = () => {
     navigate(-1);
   };
-  const goForward = () => {
-    navigate(+1);
-  };
-
   return (
     <div className="App">
       <img src={banner} alt='a banner that has farmers recycle logos and plants' id="banner" />
       <NavBar ref={navRef} /> 
-      <button type='button' id='go-back-button' onClick={goBack}><img src={goback} alt='go back button'></img>Go Back</button>
+      <button type='button' id='go-back-button' onClick={goBack}><img src={goback} alt='go back button'></img></button>
       <Footer scrollRef={navRef} /> 
     </div>
   );
