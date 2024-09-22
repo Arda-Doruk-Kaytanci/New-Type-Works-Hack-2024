@@ -37,12 +37,11 @@ function Footer({ scrollRef }) {
             <hr id="footer-hr"></hr>
             <ul id="footer-ul">
                 <li><LinkButton name="Homepage" link="" scrollRef={scrollRef}></LinkButton></li>
-                <li><LinkButton name="Tips" link="tips" scrollRef={scrollRef}></LinkButton></li>
                 <li><button type="button" onClick={goUp} id="goUp" className="link" style={{
                     color: 'grey',
                     fontWeight: 'normal'
                 }}>Go Up</button></li>
-                <li><LinkButton name="Tests" link="tests" scrollRef={scrollRef} ></LinkButton></li>
+                <li><LinkButton name="Why Us" link="why-us" scrollRef={scrollRef}></LinkButton></li>
             </ul>
             <footer className='Footer'>Author: Arda Doruk Kaytancı</footer>
         </div>

@@ -5,7 +5,7 @@ import tip4img from "./Images/image4.png"
 import tip10img from "./Images/image10.png"
 import tip3img from "./Images/image3.png"
 import homepageImg1 from "./Images/homepageImg1.png"
-import homepageImg2 from "./Images/homepageImg2.png"
+import homepageImg2 from "./Images/HomepageImg2.png"
 import homepageImg3 from "./Images/homepageImg3.png"
 function HomePage() {
 
@@ -20,15 +20,15 @@ function HomePage() {
         <div className='HomePage'>
             <article className="homepageArticle1">
                 <img src={homepageImg1} alt='summary of the informations' className="homepageImg" />
-                <p>It’s important to be aware of common scams that can trick you online. Scammers may send you emails, messages, or even call you pretending to be from a trusted company or bank. They might ask for your personal information, like passwords or bank details, but you should never share this information with anyone who contacts you unexpectedly. Always be cautious of unfamiliar emails and links, especially if they ask for sensitive information. If something feels suspicious, don’t respond, and reach out to a trusted family member or friend for advice.</p>
+                <p>Discover the excitement of archery at our school! Whether you're a complete beginner or an experienced archer, our club offers a supportive environment for everyone to learn and improve their skills. With expert guidance and hands-on practice, you'll master the art of archery in no time. Come join us and experience the thrill of hitting the bullseye while building confidence and precision.</p>
             </article>
             <article className="homepageArticle">
                 <img src={homepageImg2} alt='summary of the informations' className="homepageImg2" />
-                <p>Protecting yourself online is easier when you practice good habits. Start by creating strong passwords that include numbers, symbols, and a mix of letters, and avoid using the same password for different accounts. It’s also a good idea to enable extra protection, like two-factor authentication, which sends you a special code to confirm your identity when logging in. Finally, make sure to update your computer or phone regularly to protect against new threats. These small steps can go a long way in keeping your information safe.</p>
+                <p>At the Archery Club, we not only focus on personal improvement but also prepare for exciting competitions. With regular training sessions, you'll be ready to face challenges alongside your teammates. Whether it's inter-school competitions or fun in-club challenges, there's always an opportunity to showcase your skills. Join the fun, improve your aim, and represent our school in thrilling archery tournaments!</p>
             </article>
             <article className="homepageArticle1">
                 <img src={homepageImg3} alt='summary of the informations' className="homepageImg" />
-                <p>It’s always okay to ask for help when you come across something unfamiliar online. Whether it’s a family member, a trusted friend, or a local community group, having someone to turn to can give you peace of mind. If you’re unsure about an email, phone call, or website, reach out for advice before taking any action. Building a network of people you trust can help you stay informed about the latest scams and ensure that you always have support when navigating the online world.</p>
+                <p>Archery isn't just about hitting a target; it's about strategy, focus, and teamwork. Our club promotes an environment where members discuss techniques, plan strategies, and support each other. In our meetings, you'll learn how to plan your shots, analyze wind conditions, and improve your form—all while enjoying a fun, team-oriented atmosphere. Be part of our community and elevate your archery skills with friends!</p>
             </article>
             <article className='brief'>
                 {featuredTips}
