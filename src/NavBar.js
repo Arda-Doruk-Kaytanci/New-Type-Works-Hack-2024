@@ -47,16 +47,16 @@ const NavBar = forwardRef((props, ref) => {
                 <Route path='/' element={<HomePage />} />
                 <Route path='/why-us' element={<TipCatalogue />} />
                 
-                <Route path='/why-us/don’t-respond-to-pop-up-ads' element={elements[0]}></Route>
-                <Route path='/why-us/rely-on-trusted-sources-for-help' element={elements[1]}></Route>
-                <Route path='/why-us/know-the-warning-signs-of-scams' element={elements[2]}></Route>
-                <Route path='/why-us/be-cautious-of-public-wi-fi' element={elements[3]}></Route>
-                <Route path='/why-us/learn-about-two-factor-authentication-(2fa)' element={elements[4]}></Route>
-                <Route path='/why-us/be-careful-of-offers-that-seem-too-good-to-be-true' element={elements[5]}></Route>
-                <Route path='/why-us/keep-software-and-devices-updated' element={elements[6]}></Route>
-                <Route path='/why-us/use-strong,-unique-passwords' element={elements[7]}></Route>
-                <Route path='/why-us/protect-your-personal-information' element={elements[8]}></Route>
-                <Route path='/why-us/be-skeptical-of-unexpected-emails-and-messages' element={elements[9]}></Route>
+                <Route path='/why-us/master-the-art-of-focus-and-precision' element={elements[0]}></Route>
+                <Route path='/why-us/build-team-spirit-and-camaraderie' element={elements[1]}></Route>
+                <Route path='/why-us/accessible-to-all-skill-levels' element={elements[2]}></Route>
+                <Route path='/why-us/challenge-yourself-with-competitions-and-goals' element={elements[3]}></Route>
+                <Route path='/why-us/improve-physical-fitness-in-a-unique-way' element={elements[4]}></Route>
+                <Route path='/why-us/focus-on-personal-growth-and-development' element={elements[5]}></Route>
+                <Route path='/why-us/learn-from-experienced-and-passionate-coaches' element={elements[6]}></Route>
+                <Route path='/why-us/train-in-a-safe-and-supportive-environment' element={elements[7]}></Route>
+                <Route path='/why-us/relieve-stress-and-focus-your-mind' element={elements[8]}></Route>
+                <Route path='/why-us/join-a-thriving-community-of-like-minded-enthusiasts' element={elements[9]}></Route>
 
             </Routes>
         </>
